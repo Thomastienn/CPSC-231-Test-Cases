@@ -1,8 +1,5 @@
 import wexpect
 import unittest
-import re
-
-from pexpect import TIMEOUT
 
 
 class Assignment1Test(unittest.TestCase):
