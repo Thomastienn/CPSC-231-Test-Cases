@@ -48,7 +48,7 @@ class Assignment2Test(unittest.TestCase):
                          "The average fertility rate of these two years is 27.50.")
         self.assertEqual(".".join(self.get_out_from_in([2, 2000, 2.24, 2001, 1.53, 2000, 2001]).split(".")[0:2]) + ".",
                          "The average fertility rate of these two years is 1.89.")
-        self.assertEqual(".".join(self.get_out_from_in([2, 2000, 3.265, 2001, 2.25, 2000, 2001]).split(".")[0:2]) + ".",
+        self.assertEqual(".".join(self.get_out_from_in([2, 2000, 3.26, 2001, 2.25, 2000, 2001]).split(".")[0:2]) + ".",
                          "The average fertility rate of these two years is 2.76.")
 
     def test_trend(self):
@@ -61,4 +61,3 @@ class Assignment2Test(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-    pass
